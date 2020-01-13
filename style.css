@@ -4,6 +4,9 @@
 
 body {
   margin: 0;
+  font-size: 16px;
+  line-height: 1.8em;
+
 }
 
 article {
@@ -13,6 +16,7 @@ article {
 section{
   margin: 1em;
   padding: 1em;
+
 }
 
 header, main, footer {
@@ -20,21 +24,29 @@ header, main, footer {
 }
 
 header {
-  padding: 2em;
+  padding-top: 10em;
   text-align: center;
-  /*background-image: url('sciezka');*/
+  background-image: url(005okl.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #dcdcdc; /*background-image: url('sciezka');*/
 }
 
 header section {
-  margin: 0 auto;
+  margin: auto;
+  max-width: 640px;
 }
 
 header img {
-
+  width: 200px;
+  border-radius: 100%;
 }
 
 h1 {
   margin: 1em 0;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 2px;
 }
 
 main {
