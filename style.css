@@ -1,4 +1,6 @@
-/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
+* {
+  font-family: 'Andada', serif;
+}
 
 body {
   margin: 0;
