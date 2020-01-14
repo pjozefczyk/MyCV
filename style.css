@@ -14,7 +14,7 @@ article {
 }
 
 section{
-  margin: 1em;
+  margin: 5em;
   padding: 1em;
 }
 
@@ -24,6 +24,7 @@ section:last-child {
 
 main section {
   border-bottom: 1.3px solid #A7B8BF;
+  margin-top: 4em;
 
 }
 
@@ -32,7 +33,7 @@ header, main, footer {
 }
 
 header {
-  padding-top: 10em;
+  padding-top: 5em;
   text-align: center;
   background-image: url(005okl.jpg);
   background-position: center;
@@ -64,6 +65,7 @@ h3 {
   line-height: 1.5em;
   text-decoration:underline;
   font-weight:600;
+
 }
 
 main {
@@ -71,19 +73,44 @@ main {
 }
 
 .course {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
 .course .title {
   font-weight: 600;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #999966;
+  flex: 0 0 33.3%;
+  max-width: 33%;
+  padding-top: 1em;
 }
 
+span {
+  opacity: 0.5;
+}
 .course .descrition {
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
+.course .descrition p{
+padding-left: 1em;
+letter-spacing: 0.5px;
 }
 
 .school span {
   color: #A7B8BF;
+}
+
+.title_info {
+  font-size: 10px;
+  color: black;
+  line-height: 20px;
+  letter-spacing: 2px;
+
 }
 
 footer {
