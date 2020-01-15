@@ -46,9 +46,20 @@ header section {
   max-width: 640px;
 }
 
-header img {
+.photo img {
   width: 200px;
   border-radius: 100%;
+}
+
+.menu_icon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon {
+  flex: 0 0 50%;
+  max-width: 50%;
+
 }
 
 h1 {
@@ -78,6 +89,11 @@ main {
   padding-bottom: 50px;
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .course .title {
   font-weight: 600;
   letter-spacing: 1px;
@@ -86,6 +102,11 @@ main {
   flex: 0 0 33.3%;
   max-width: 33%;
   padding-top: 1em;
+}
+
+.skills .column {
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 
 span {
@@ -110,6 +131,18 @@ letter-spacing: 0.5px;
   color: black;
   line-height: 20px;
   letter-spacing: 2px;
+
+}
+
+.icon img {
+  width: 20px;
+  height: auto;
+
+}
+
+.column li {
+  list-style-type: "\2713";
+}
 
 }
 
