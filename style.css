@@ -89,9 +89,27 @@ main {
   padding-bottom: 50px;
 }
 
+.education {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.date {
+  flex: 0 0 33.3%;
+  max-width: 33%;
+  padding-top: 1em;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
+}
+
+.schoolDesc {
+  line-height: 1.7em;
+  font-size: 0.8em;
+  letter-spacing: 0.03em;
 }
 
 .course .title {
@@ -109,12 +127,18 @@ main {
   max-width: 50%;
 }
 
-span {
+.title span {
   opacity: 0.5;
 }
-.course .descrition {
+.course .descrition  {
   flex: 0 0 66.6%;
   max-width: 66.6%;
+}
+
+.education .school {
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+  padding-top: 1em;
 }
 
 .course .descrition p{
@@ -122,29 +146,27 @@ padding-left: 1em;
 letter-spacing: 0.5px;
 }
 
+/*
 .school span {
-  color: #A7B8BF;
-}
+  /*color: #A7B8BF;
+}*/
 
 .title_info {
   font-size: 10px;
   color: black;
   line-height: 20px;
   letter-spacing: 2px;
-
 }
 
 .icon img {
   width: 20px;
   height: auto;
-
 }
 
 .column li {
   list-style-type: "\2713";
 }
 
-}
 
 footer {
  padding: 1em;
