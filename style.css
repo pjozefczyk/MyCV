@@ -169,5 +169,20 @@ letter-spacing: 0.5px;
 
 
 footer {
- padding: 1em;
+ padding: 0.7em;
+ text-transform: uppercase;
+ font-size: 0.7em;
+ color: white;
+ letter-spacing: 0.2em;
+ background-color: grey;
+
+}
+
+footer p {
+  text-align: center;
+}
+
+footer img {
+  width: 12px;
+  vertical-align: middle;
 }
