@@ -16,7 +16,6 @@
   .skills .column {
     max-width: 100%;
   }
-
 }
 
 * {
@@ -27,7 +26,6 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.8em;
-
 }
 
 article {
@@ -36,7 +34,9 @@ article {
 
 section{
   margin: 5em;
-  padding: 1em;
+  margin-top: 0 ;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 section:last-child {
@@ -45,8 +45,7 @@ section:last-child {
 
 main section {
   border-bottom: 1.3px solid #A7B8BF;
-  margin-top: 4em;
-
+  margin-top: 2em;
 }
 
 header, main, footer {
@@ -65,22 +64,12 @@ header {
 header section {
   margin: auto;
   max-width: 640px;
+  padding-bottom: 50px;
 }
 
 .photo img {
   width: 200px;
   border-radius: 100%;
-}
-
-.menu_icon {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.icon {
-  flex: 0 0 50%;
-  max-width: 50%;
-
 }
 
 h1 {
@@ -97,7 +86,6 @@ h3 {
   line-height: 1.5em;
   text-decoration:underline;
   font-weight:600;
-
 }
 
 main {
@@ -110,10 +98,15 @@ main {
   padding-bottom: 50px;
 }
 
-.education {
+.experience {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 50px;
+}
+
+.education {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .date {
@@ -143,6 +136,16 @@ main {
   padding-top: 1em;
 }
 
+.experience .name {
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999966;
+  flex: 0 0 33.3%;
+  max-width: 33%;
+  padding-top: 1em;
+}
+
 .skills .column {
   flex: 0 0 50%;
   max-width: 50%;
@@ -151,20 +154,31 @@ main {
 .title span {
   opacity: 0.5;
 }
+
 .course .descrition  {
   flex: 0 0 66.6%;
   max-width: 66.6%;
+}
+
+.course .descrition p{
+padding-left: 1em;
+letter-spacing: 0.5px;
+}
+
+.experience .desc {
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
+.experience .desc ul {
+  padding-left: 2em;
+  letter-spacing: 0.5px;
 }
 
 .education .school {
   flex: 0 0 66.6%;
   max-width: 66.6%;
   padding-top: 1em;
-}
-
-.course .descrition p{
-padding-left: 1em;
-letter-spacing: 0.5px;
 }
 
 /*
@@ -188,7 +202,6 @@ letter-spacing: 0.5px;
   list-style-type: "\2713";
 }
 
-
 footer {
  padding: 0.7em;
  text-transform: uppercase;
@@ -196,7 +209,6 @@ footer {
  color: white;
  letter-spacing: 0.2em;
  background-color: grey;
-
 }
 
 footer p {
