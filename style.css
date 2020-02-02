@@ -26,17 +26,20 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.8em;
+  letter-spacing: 0.7px;
+
 }
 
 article {
-  padding:0 1em;
+  padding:0 2em;
 }
 
 section{
   margin: 5em;
   margin-top: 0 ;
   margin-bottom: 0;
-  padding: 0;
+  padding: 0 0 20px 0;
+
 }
 
 section:last-child {
@@ -95,16 +98,9 @@ main {
 .course {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 50px;
 }
 
 .experience {
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 50px;
-}
-
-.education {
   display: flex;
   flex-wrap: wrap;
 }
@@ -118,6 +114,7 @@ main {
 .skills {
   display: flex;
   flex-wrap: wrap;
+  padding: 0 0 20px 0;
 }
 
 .schoolDesc {
@@ -128,7 +125,6 @@ main {
 
 .course .title {
   font-weight: 600;
-  letter-spacing: 1px;
   text-transform: uppercase;
   color: #999966;
   flex: 0 0 33.3%;
@@ -148,7 +144,7 @@ main {
 
 .skills .column {
   flex: 0 0 50%;
-  max-width: 50%;
+  max-width: 25%;
 }
 
 .title span {
@@ -161,8 +157,8 @@ main {
 }
 
 .course .descrition p{
-padding-left: 1em;
-letter-spacing: 0.5px;
+  padding-left: 1em;
+  letter-spacing: 0.5px;
 }
 
 .experience .desc {
@@ -181,11 +177,6 @@ letter-spacing: 0.5px;
   padding-top: 1em;
 }
 
-/*
-.school span {
-  /*color: #A7B8BF;
-}*/
-
 .title_info {
   font-size: 10px;
   color: black;
@@ -200,6 +191,7 @@ letter-spacing: 0.5px;
 
 .column li {
   list-style-type: "\2713";
+  padding: 0 5px;
 }
 
 footer {
