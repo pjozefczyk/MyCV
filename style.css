@@ -61,7 +61,10 @@ header {
   background-image: url(005okl.jpg);
   background-position: center;
   background-size: cover;
-  color: #dcdcdc; /*background-image: url('sciezka');*/
+  color: #dcdcdc;
+  letter-spacing: 0.1px;
+
+ /*background-image: url('sciezka');*/
 }
 
 header section {
@@ -205,6 +208,16 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+footer span {
+  font-size: 0.6em;
+  color: white;
+}
+
+footer a {
+
+  text-decoration: none;
 }
 
 footer img {
