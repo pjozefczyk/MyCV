@@ -94,6 +94,20 @@ h3 {
   font-weight:600;
 }
 
+.eng {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eng a {
+  text-decoration: none;
+  font-size: 0.6em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  flex:  0 0 33.3%;
+}
+
 main {
   max-width: 1140px;
 }
@@ -204,10 +218,7 @@ footer {
  color: white;
  letter-spacing: 0.2em;
  background-color: grey;
-}
-
-footer p {
-  text-align: center;
+ text-align: center;
 }
 
 footer span {
@@ -216,7 +227,6 @@ footer span {
 }
 
 footer a {
-
   text-decoration: none;
 }
 
